@@ -1,0 +1,13 @@
+Hey guys, 
+
+This week we’ll be discussing the concept of "Youtubability" - 
+another important game guideline. 
+
+Youtubability A key driver of youtubability is the clarity of your gameplay to a potential player.
+Gameplay clarity will help you achieve the full potential of your game by working on getting the lowest possible CPIs for your games.
+Many elements can be used to make your game clearer :
+For instance, ask yourself if a user’s inte-raction with the game is evident,
+for example, can she tell which character she controls? Is the objective clear?
+Does it look fun to play? Has she understood the game after 1 second (great!) or after 10 seconds (too long!).
+Make sure to use colours to help indicate the gameplay rules. 
+For instance, in Helix Jump, obstacles are clearly contrasted (in orange here) and instantly recognized as a threat.
