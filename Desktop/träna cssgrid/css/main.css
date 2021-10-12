@@ -1,59 +1,127 @@
 * {
     margin: 0;
     padding: 0;
-   /*  border: solid 1px black; */
+   /* border: solid 1px black; */
 }
 
-body { 
-   
+body {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.content {
+    height: 100%;
+    max-width: 900px;
+    margin: auto;
 } 
-
-
 .header {
-    position: relative;
-    height: 800px;
-    width: 100%;
-    z-index: 1;
-    background-image: url("/bilder/header.png");
-    background-repeat: no-repeat; 
-    background-position-x: center;
-    background-size: 110% ;
+    justify-content: relative;
+    background-image:url("../bilder/header.png") ;
+    height: 600px;
+    background-size: 115%; 
+    background-position-x: center; 
+    background-repeat: no-repeat;
+
+} 
+#voodoo { 
+    font-size: 30px ;
+    position: absolute; 
+    margin-top: 2rem;
+    margin-left: 23rem;
+        
+} 
+#hey {
+    font-weight: 600;
+    position: absolute;
+    margin-left: 30rem; 
+    margin-top: 32rem;
+}
+#youtube {
+    position: absolute; 
+    margin-left: 12rem;
+    margin-top: 34rem;
+}
+.wrapper {
+    
+    display: flex;
+    justify-content: space-between;
     
 } 
-
-.img {
-    position: relative; 
-    top: 2rem;
-    left: 50%;
-} 
-
-.text {
-    position: absolute;
-    top: 20%;
-    left: 60%;
+.wrapper-1 {
+    flex-direction: column;
+    padding-left: 13%;
+    padding-top: 9%; 
+    
 }
-#text3 {
-    position: relative; 
-    top: 600px; 
-    margin-left:  25%;
+
+.main-text {
+    margin-top: 1rem;
 }
-#text4 {
-    position: relative; 
-    top: 625px; 
-    margin-left: 44%;
-} 
-.middle {
-    display: flex;
-    height: 800px;
-    width: 100%;
-} 
-.text5 {
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 612px;
+.video-box{ 
+    margin-top: 2rem;
+    height: 300px;
+    width: 100%; 
+}
+video { 
     height: 100%;
+    width: 100%;
+}
 
+.wrapper-middle {
+    display: flex; 
 } 
-.mobil {
-    justify-self: right;
+.text-container {
+    margin-top: 7rem;
+}
+.middle-text-2 {
+    margin-top: 1rem; 
+} 
+
+.wrapper-middle-text {
+    display: flex; 
+    flex-direction: column;
+} 
+.wrapper-middle-text-1 {
+    align-self: center;
+}
+.wrapper-middle-text-2 {
+    margin-top: 2rem;
+    align-self: center;
+}
+.newsletter {
+    height: 348px; 
+    background-image: url(/bilder/Q1_newsletter-02.png);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+} 
+.head-tag {
+    align-self: center;
+    margin-top: 7rem;
+} 
+.main-tag { 
+    align-self: center;
+    margin-top: 2rem;
+} 
+.footer {
+    height: 280px;
+    display: flex; 
+    justify-content: space-evenly;
+    color: blanchedalmond;
+    background-color: black;
+}  
+#p1 {
+    margin-top: 3rem;
+} 
+#p2 {
+    margin-top: 2rem;
+} 
+#p3 {
+    margin-top: 2rem;
+} 
+#p4 {
+    margin-top: 7rem;
+}
+#p5 {
+    margin-top: 3rem;
 }
