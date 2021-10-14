@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+   /* border: solid 1px black; */
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(102, 101, 101);
+    font-size: 1rem;
+}
+.content {
+    height: 100%;
+    max-width: 900px;
+    margin: auto;
+} 
+.header {
+    display: flex;
+    flex-direction: column;
+    background-image:url("../bilder/header.png") ;
+    height: 600px;
+    background-size: 115%; 
+    background-position-x: center; 
+    background-repeat: no-repeat;
+
+} 
+.header-title { 
+    color: black;
+    font-size: 20px ;
+    margin-top: 2rem;
+    margin-left: 40%;
+        
+} 
+.header-text-1 {
+    color: black;
+    font-size: 1.8rem; 
+    font-weight: bolder;
+    margin-top: 50%; 
+    margin-left: 50%;
+    
+}
+.header-text-2 {
+    margin-top: 4%;
+    margin-left: 10rem; 
+    margin-right: 10rem;
+    text-align: right;
+}
+.wrapper {
+    
+    display: flex;
+    justify-content: space-around;
+    
+} 
+.wrapper-1 {
+    flex-direction: column;
+    padding-left: 13%;
+    padding-top: 9%; 
+    
+}
+
+.main-text {
+    margin-top: 1rem;
+}
+.video-box{ 
+    margin-top: 2rem;
+    height: 300px;
+    width: 100%; 
+} 
+
+video { 
+    height: 100%;
+    width: 100%;
+} 
+
+
+.wrapper-middle {
+    
+    display: flex; 
+    justify-content: space-around;
+} 
+.text-container {
+    margin-top: 7rem;
+}
+.middle-text-2 {
+    margin-top: 1rem; 
+} 
+
+.wrapper-middle-text {
+    display: flex; 
+    flex-direction: column;
+} 
+.wrapper-middle-text-1 {
+    align-self: center;
+}
+.wrapper-middle-text-2 {
+    margin-top: 2rem;
+    align-self: center;
+}
+.newsletter {
+    height: 348px; 
+    background-image: url(/bilder/Q1_newsletter-02.png);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+} 
+.head-tag {
+    align-self: center;
+    margin-top: 7rem;
+} 
+.main-tag { 
+    align-self: center;
+    margin-top: 2rem;
+} 
+.footer {
+    height: 280px;
+    display: flex; 
+    justify-content: space-evenly;
+    color: whitesmoke;
+    background-color: black;
+}  
+#p1 {
+    margin-top: 3rem;
+} 
+#p2 {
+    margin-top: 2rem;
+} 
+#p3 {
+    margin-top: 2rem;
+} 
+#p4 {
+    margin-top: 7rem;
+}
+#p5 {
+    margin-top: 3rem;
+}
+
+@media screen and (max-width: 700px) {
+    .wrapper {
+    flex-wrap:wrap ;
+    justify-content: center;
+} 
+}
