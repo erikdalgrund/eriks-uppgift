@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-   /* border: solid 1px black; */
+   
 }
 
 body {
@@ -14,7 +14,9 @@ body {
     height: 100%;
     max-width: 900px;
     margin: auto;
-} 
+}  
+/* Bakgrundsbild som gör det enkelt att justera texten, och hur bilden ska aggera. */
+
 .header {
     display: flex;
     flex-direction: column;
@@ -81,6 +83,7 @@ video {
 } 
 .text-container {
     margin-top: 7rem;
+    
 }
 .middle-text-2 {
     margin-top: 1rem; 
@@ -135,6 +138,7 @@ video {
 #p5 {
     margin-top: 3rem;
 }
+/* En media-q som flyttar en mobil-bild så inte texten blir ihoptryckt */
 
 @media screen and (max-width: 700px) {
     .wrapper {
